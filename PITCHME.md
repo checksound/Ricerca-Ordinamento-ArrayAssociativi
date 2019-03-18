@@ -60,3 +60,7 @@ static int binarySearch(int[] A, int N) {
 }
 
 ```
+
+---
+
+Come ordinare gli elementi della nostra struttura, ad esempio array di tipi primitivi od oggetti o elementi di un'`ArrayList`?
