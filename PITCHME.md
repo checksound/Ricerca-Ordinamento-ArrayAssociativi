@@ -63,10 +63,10 @@ Come ordinare gli elementi della nostra struttura, ad esempio array di tipi prim
 Vediamo all'inizio semplici algoritmi per farlo, poi le classi che Java mette a disposizione per eseguire gli ordinamenti. 
 
 ---
-@span[north-west]
+@snap[north-west]
 ### Insertion sort
-@spanend
+@snapend
 
-@span[west]
+@snap[west]
 Supponiamo di avere una lista ordinata e di voler aggiungere un elemento alla lista. Se si vuole che la nuova lista sia ancora ordinata, allora il nuovo elemento deve essere inserito nel posto giusto (rispetto all'ordinamento), cioè con gli elementi più piccoli messi prima e quelli più grandi messi dopo. Questo vuol dire muovere gli elementi più grandi avanti di un elemento per fare posto al nuovo elemento.
-@spanend
+@snapend
