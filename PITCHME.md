@@ -31,12 +31,7 @@ Se l'array fosse già ordinato, potrei essere molto più veloce nella ricerca, e
 Se l'array di partenza fosse già ordinato, come detto, potrei eseguire la **ricerca binaria**, molto più veloce della sequanziale:
 
 ```java
-/**
- * Searches the array A for the integer N. Precondition: A must be sorted into
- * increasing order. Postcondition: If N is in the array, then the return value,
- * i, satisfies A[i] == N. If N is not in the array, then the return value is
- * -1.
- */
+
 static int binarySearch(int[] A, int N) {
 	int lowestPossibleLoc = 0;
 	int highestPossibleLoc = A.length - 1;
@@ -65,4 +60,13 @@ static int binarySearch(int[] A, int N) {
 
 Come ordinare gli elementi della nostra struttura, ad esempio array di tipi primitivi od oggetti o elementi di un'`ArrayList`?
 
-Vediamo all'inizio semplici algoritmi per farlo, poi le classi che Java mette a disposizione per eseguire gli ordinamenti.
+Vediamo all'inizio semplici algoritmi per farlo, poi le classi che Java mette a disposizione per eseguire gli ordinamenti. 
+
+---
+@span[north-west]
+### Insertion sort
+@spanend
+
+@span[west]
+Supponiamo di avere una lista ordinata e di voler aggiungere un elemento alla lista. Se si vuole che la nuova lista sia ancora ordinata, allora il nuovo elemento deve essere inserito nel posto giusto (rispetto all'ordinamento), cioè con gli elementi più piccoli messi prima e quelli più grandi messi dopo. Questo vuol dire muovere gli elementi più grandi avanti di un elemento per fare posto al nuovo elemento.
+@spanend
