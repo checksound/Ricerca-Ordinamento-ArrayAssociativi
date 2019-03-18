@@ -21,3 +21,15 @@ static int find(int[] A, int N) {
 }
 
 ```
+---
+Nella ricerca sequenziale scorro l'array elemento per elemento, e confronto l'elemento dell'array con quello ricercato, finchè non lo trovo (se presente nell'array).
+
+Se l'array fosse già ordinato, potrei errere molto più veloce nella ricerca, eseguendo la **ricerca binaria**.
+---
+
+Se l'array di partenza fosse già ordinato, come detto, posso eseguire la **ricerca binaria**:
+
+```java
+
+
+```
