@@ -244,7 +244,7 @@ nella classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/master/
 
 ---
 
-In questo algoritmo di sorting, viene creata una nuova lista di carte; le carte sono prese dalla vecchia lista in ordine crescente, e messe nella nuova lista. Alla fine alla variabile `hand`  (che conteneva la vecchia lista di carte non ordinate) viene assegnata la nuova lista con le carte ordinate.
+In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte sono prese dalla vecchia lista in ordine crescente, e messe nella nuova lista. Alla fine alla variabile `hand`  (che conteneva la vecchia lista di carte non ordinate) viene assegnata la nuova lista con le carte ordinate.
 
 ---
 
