@@ -81,6 +81,10 @@ Supponiamo di avere una lista ordinata e di voler aggiungere un elemento alla li
 ![](assets/img/insertion_sort.png)
 
 ---
+@snap[north-west]
+### Insertion sort
+@snapend
+
 ```java
 /*
  * Precondition: itemsInArray is the number of items that are stored in A. These
@@ -135,6 +139,10 @@ Un altro semplice algoritmo per ordinare consiste nel trovare il più grande ele
 @snapend
 
 ---
+
+@snap[north-west]
+### Selection sort
+@snapend
 
 ```java
 static void selectionSort(int[] A) {
