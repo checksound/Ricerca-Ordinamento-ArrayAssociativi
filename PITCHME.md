@@ -134,3 +134,30 @@ static void insertionSort(int[] A) {
 Un altro semplice algoritmo per ordinare consiste nel trovare il più grande elemento della lista e spostarlo alla fine - dove deve stare se si vuole ordinare in modo crescente. Una volta che l'ememento più grande è nell'ultima posizione, si può riapplicare l'idea ai rimanenti. Cioè travare il prossimo elemento più grande, e spostarlo nella posizione precedente l'ultima, e così via. Questo algoritmo si chiama **selection sort**.
 @snapend
 
+---
+
+```java
+static void selectionSort(int[] A) {
+    // Sort A into increasing order, using selection sort
+    for (int lastPlace = A.length - 1; lastPlace > 0; lastPlace--) {
+        // Find the largest item among A[0], A[1], ...,
+        // A[lastPlace], and move it into position lastPlace
+        // by swapping it with the number that is currently
+        // in position lastPlace.
+        int maxLoc = 0; // Location of largest item seen so far.
+        for (int j = 1; j <= lastPlace; j++) {
+            if (A[j] > A[maxLoc]) {
+                // Since A[j] is bigger than the maximum we’ve seen
+                // so far, j is the new location of the maximum value
+                // we’ve seen so far.
+                maxLoc = j;
+            }
+        }
+        int temp = A[maxLoc]; // Swap largest item with A[lastPlace].
+        A[maxLoc] = A[lastPlace];
+        A[lastPlace] = temp;
+    } // end of for loop
+}
+
+```
+
