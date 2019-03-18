@@ -168,4 +168,29 @@ static void selectionSort(int[] A) {
 }
 
 ```
+@snap[north-west]
+### Unsorting
+@snapend
 
+@snap[west]
+Un argomento legato all'ordinamento, è quello di mettere un elemento in modo casuale in un array o unsorting. Il tipico caso è quello di mischiare un mazzo di carte. Un buon algoritmo per mischiare (**shuffling**) è simile al selection sort, eccetto che invece di spostare l'elemento maggiore alla fine della lista, un elemento è selezionato a caso e messo alla fine della lista. In questo esempio sotto viene mischiato in array di `int`.
+@snapend
+
+---
+
+```
+/**
+ * Postcondition: The items in A have been rearranged into a random order.
+ */
+static void shuffle(int[] A) {
+	for (int lastPlace = A.length - 1; lastPlace > 0; lastPlace--) {
+		// Choose a random location from among 0,1,...,lastPlace.
+		int randLoc = (int) (Math.random() * (lastPlace + 1));
+		// Swap items in locations randLoc and lastPlace.
+		int temp = A[randLoc];
+		A[randLoc] = A[lastPlace];
+		A[lastPlace] = temp;
+	}
+}
+
+```
