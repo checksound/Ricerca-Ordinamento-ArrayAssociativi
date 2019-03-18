@@ -168,6 +168,8 @@ static void selectionSort(int[] A) {
 }
 
 ```
+---
+
 @snap[north-west]
 ### Unsorting
 @snapend
