@@ -205,15 +205,15 @@ static void shuffle(int[] A) {
 
 ```
 ---
-@snap[north-west]
-### Esempio gioco carte
-@snapend
 
 @snap[west]
 Un altro esempio di utilizzo dell'algoritmo di **selection sort** per ordinare un mazzo di carte (utilizzando la classe ArrayList al posto dell'array). In questo caso la carte sono contenute in una lista di tipo `ArrayList<Card>`. Un oggetto di tipo `Card` contiene due metodi d'istanza `getSuit()` e `getValue()`. In questo algoritmo di sorting le carte viene creata una nuova lista e le carte sono prese dalla vecchia lista in ordine crescente, e messe nella nuova lista. Alla fina alla variabile `hand`  (che conteneva la vecchia lista di carte non ordinate) viene assegnata la nuova lista con le carte ordinate.
 @snapend
 
 ---
+@snap[north-west]
+### Esempio gioco carte
+@snapend
 
 ```java
 /**
