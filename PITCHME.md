@@ -130,7 +130,7 @@ static void insertionSort(int[] A) {
 
 ```
 ---
-@span[west]
+@snap[west]
 Un altro semplice algoritmo per ordinare consiste nel trovare il più grande elemento della lista e spostarlo alla fine - dove deve stare se si vuole ordinare in modo crescente. Una volta che l'ememento più grande è nell'ultima posizione, si può riapplicare l'idea ai rimanenti. Cioè travare il prossimo elemento più grande, e spostarlo nella posizione precedente l'ultima, e così via. Questo algoritmo si chiama **selection sort**.
-@spanend
+@snapend
 
