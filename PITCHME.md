@@ -135,7 +135,7 @@ static void insertionSort(int[] A) {
 ```
 ---
 @snap[north-west]
-#### Selection sort
+### Selection sort
 @snapend
 
 @snap[west]
