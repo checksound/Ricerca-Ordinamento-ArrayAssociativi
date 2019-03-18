@@ -184,6 +184,10 @@ Un argomento legato all'ordinamento, è quello di mettere un elemento in modo ca
 
 ---
 
+@snap[north-west]
+### Unsorting
+@snapend
+
 ```
 /**
  * Postcondition: The items in A have been rearranged into a random order.
