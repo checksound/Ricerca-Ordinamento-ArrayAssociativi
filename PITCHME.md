@@ -112,7 +112,7 @@ static void insert(int[] A, int itemsInArray, int newItem) {
 
 ---
 
-Concettualmente questo può essere esteso per ordinare un array prendendo ogni elemento di un array non ordinato e poi inserirle di nuovo uno per uno di nuovo dentro l'array. 
+Concettualmente questo può essere esteso, per ordinare un array, prendendo ogni elemento di un array non ordinato, uno alla volta, per inserirlo di nuovo dentro l'array in modo ordinato. 
 
 ```
 static void insertionSort(int[] A) {
