@@ -204,3 +204,5 @@ static void shuffle(int[] A) {
 }
 
 ```
+---
+Le classi [java.utils.Arrays](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) e [java.utils.Collections](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html) hanno molti metodi statici per eseguire l'ordinamento rispettivamente su array e liste.
