@@ -240,7 +240,7 @@ public void sortBySuit() {
 	hand = newHand;
 }
 ```
-nella classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Hand.java) e [Card](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Card.java).
+Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Hand.java). Codice [Card](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Card.java).
 
 ---
 
