@@ -64,3 +64,5 @@ static int binarySearch(int[] A, int N) {
 ---
 
 Come ordinare gli elementi della nostra struttura, ad esempio array di tipi primitivi od oggetti o elementi di un'`ArrayList`?
+
+Vediamo all'inizio semplici algoritmi per farlo, poi le classi che Java mette a disposizione per eseguire gli ordinamenti.
