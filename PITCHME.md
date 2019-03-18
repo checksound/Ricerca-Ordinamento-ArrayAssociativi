@@ -77,7 +77,6 @@ Supponiamo di avere una lista ordinata e di voler aggiungere un elemento alla li
 @snapend
 
 ---
-Qui sotto una illustrazione di un passo durante l'esecuzione dell'insert sort. Questo mostra cosa succede durante una esecuzione del loop for nel metodo sopra, quando itemsSorted è 5:
 
 ![](assets/img/insertion_sort.png)
 
