@@ -108,7 +108,9 @@ static void insert(int[] A, int itemsInArray, int newItem) {
 
 ---
 
+@snap[north-west]
 Concettualmente questo può essere esteso per ordinare un array prendendo ogni elemento di un array non ordinato e poi inserirle di nuovo uno per uno di nuovo dentro l'array. 
+@snapend
 
 ```
 static void insertionSort(int[] A) {
