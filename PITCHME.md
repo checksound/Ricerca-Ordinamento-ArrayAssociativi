@@ -245,9 +245,8 @@ Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/
 ---?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java&title=Mazzo carte
 
 @snap[south span-100]
-@[1, zoom-25](You can step-and-zoom into selected sections of code directly on your slides.)
-@[3, zoom-25](Using GitPitch live code presenting with optional annotations.)
-@[5,7, zoom-20](Allowing you to drill-down into your code and focus your audience's attention.)
+@[8,13, zoom-25](You can step-and-zoom into selected sections of code directly on your slides.)
+@[88,106, zoom-20](Allowing you to drill-down into your code and focus your audience's attention.)
 @snapend
 
 ---
