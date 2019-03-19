@@ -256,6 +256,8 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 
 ---?gist=https://gist.github.com/MassimoCappellano/2577352d45284a989df09b5c45deb223&lang=Java&title=Carta da gioco
 
+---?gist=MassimoCappellano/ccc626c37bb7a3651c875766022bcd41&lang=Java&title=Esempio utilizzo classe Hand
+
 ---
 
 Le classi [java.utils.Arrays](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) e [java.utils.Collections](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html) hanno molti metodi statici per eseguire l'ordinamento rispettivamente su array e liste.
