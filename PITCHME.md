@@ -259,5 +259,38 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 ---?gist=MassimoCappellano/ccc626c37bb7a3651c875766022bcd41&lang=Java&title=Esempio utilizzo classe Hand
 
 ---
+@snap[north-west]
+####Output
+@snapend
+
+```text
+9 of Hearts
+7 of Spades
+Ace of Hearts
+8 of Hearts
+7 of Clubs
+10 of Hearts
+7 of Hearts
+Ace of Spades
+SORTING PER SEMI:
+Ace of Spades
+7 of Spades
+Ace of Hearts
+7 of Hearts
+8 of Hearts
+9 of Hearts
+10 of Hearts
+7 of Clubs
+SORTING PER VALORE:
+Ace of Spades
+Ace of Hearts
+7 of Spades
+7 of Hearts
+7 of Clubs
+8 of Hearts
+9 of Hearts
+10 of Hearts
+```
+---
 
 Le classi [java.utils.Arrays](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) e [java.utils.Collections](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html) hanno molti metodi statici per eseguire l'ordinamento rispettivamente su array e liste.
