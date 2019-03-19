@@ -314,8 +314,9 @@ Le classi [java.utils.Arrays](https://docs.oracle.com/javase/7/docs/api/java/uti
 @snapend
 
 @snap[south span-100]
-@[8-20, zoom-25](classe `Hand`, rappresenta le carte in mano al giocatore)
-@[83-106, zoom-20](metodo per ordinare per seme: asso, due, tre.. di cuori, poi asso, due, tre.. di quadri,...)
-@[107-130, zoom-20](metodo per ordinare per valori: tutti gli assi, poi tutti i due, tutti i tre....)
+@[16-29, zoom-25](`Comparator` per eseguire ordinamento per semi di `Card`)
+@[30-43, zoom-20](`Comparator` per eseguire ordinamento per valori di `Card`)
+@[118-121, zoom-20](metodo `sortBySuit()`)
+@[127-130, zoom-20](metodo `sortByValue()`)
 @snapend
 
