@@ -268,7 +268,7 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 @snapend
 
 @snap[south-west]
-Esecuzione sorting
+esecuzione sorting ....
 @snapend
 ---
 @snap[north-west]
@@ -307,4 +307,15 @@ Ace of Hearts
 
 Le classi [java.utils.Arrays](https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html) e [java.utils.Collections](https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html) hanno molti metodi statici per eseguire l'ordinamento rispettivamente su array e liste.
 
----?gist=MassimoCappellano/d7d6c5d3bed34b4e3098731decddc739&lang=java&title=Esempio con Collections.sort
+---?gist=MassimoCappellano/d7d6c5d3bed34b4e3098731decddc739&lang=java
+
+@snap[north-west]
+### Esempio con `Collections.sort`
+@snapend
+
+@snap[south span-100]
+@[8-20, zoom-25](classe `Hand`, rappresenta le carte in mano al giocatore)
+@[83-106, zoom-20](metodo per ordinare per seme: asso, due, tre.. di cuori, poi asso, due, tre.. di quadri,...)
+@[107-130, zoom-20](metodo per ordinare per valori: tutti gli assi, poi tutti i due, tutti i tre....)
+@snapend
+
