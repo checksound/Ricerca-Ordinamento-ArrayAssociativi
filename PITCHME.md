@@ -244,6 +244,12 @@ Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/
 
 ---?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java&title=Mazzo carte
 
+@snap[south span-100]
+@[1, zoom-25](You can step-and-zoom into selected sections of code directly on your slides.)
+@[3, zoom-25](Using GitPitch live code presenting with optional annotations.)
+@[5,7, zoom-20](Allowing you to drill-down into your code and focus your audience's attention.)
+@snapend
+
 ---
 
 In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte sono prese dalla vecchia lista in ordine crescente, e messe nella nuova lista. Alla fine alla variabile `hand`  (che conteneva la vecchia lista di carte non ordinate) viene assegnata la nuova lista con le carte ordinate.
