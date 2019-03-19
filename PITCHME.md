@@ -267,7 +267,7 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 ### Esempio utilizzo classe `Hand`
 @snapend
 
-@snap[south-west]
+@snap[south-west zoom-25]
 Esecuzione sorting
 @snapend
 ---
