@@ -261,7 +261,11 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 ### Carta da gioco - classe `Card`
 @snapend
 
----?gist=MassimoCappellano/ccc626c37bb7a3651c875766022bcd41&lang=Java&title=Esempio utilizzo classe Hand
+---?gist=MassimoCappellano/ccc626c37bb7a3651c875766022bcd41&lang=Java
+
+@snap[north-west]
+### Esempio utilizzo classe `Hand`
+@snapend
 
 @snap[south-west]
 Esecuzione sorting
