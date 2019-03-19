@@ -246,7 +246,7 @@ Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/
 
 @snap[south span-100]
 @[8-20, zoom-25](Classe Hand, carte in mano al giocatore)
-@[83-106, zoom-20](metodo per ordinare per seme: asso, due, tre.. di cuori, poi assodue, tre.. di quadri,...)
+@[83-106, zoom-20](metodo per ordinare per seme: asso, due, tre.. di cuori, poi asso, due, tre.. di quadri,...)
 @[107-130, zoom-20](metodo per ordinare per valori: tutti gli assi, poi i due, i tre....)
 @snapend
 
