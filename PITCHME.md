@@ -254,7 +254,7 @@ Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/
 
 In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte sono prese dalla vecchia lista in ordine crescente, e messe nella nuova lista. Alla fine alla variabile `hand`  (che conteneva la vecchia lista di carte non ordinate) viene assegnata la nuova lista con le carte ordinate.
 
----?gist?https://gist.github.com/MassimoCappellano/2577352d45284a989df09b5c45deb223&lang=Java&title=Carta da gioco
+---?gist=https://gist.github.com/MassimoCappellano/2577352d45284a989df09b5c45deb223&lang=Java&title=Carta da gioco
 
 ---
 
