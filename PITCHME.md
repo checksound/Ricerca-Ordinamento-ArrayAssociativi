@@ -240,8 +240,6 @@ public void sortBySuit() {
 	hand = newHand;
 }
 ```
-Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Hand.java). Codice [Card](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Card.java).
-
 ---?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java&title=Mazzo carte
 
 @snap[south span-100]
