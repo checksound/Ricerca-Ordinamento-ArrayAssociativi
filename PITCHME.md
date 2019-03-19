@@ -263,6 +263,9 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 
 ---?gist=MassimoCappellano/ccc626c37bb7a3651c875766022bcd41&lang=Java&title=Esempio utilizzo classe Hand
 
+@snap[south-west]
+Esecuzione sorting
+@snapend
 ---
 @snap[north-west]
 #### Output
