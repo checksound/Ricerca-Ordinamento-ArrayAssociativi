@@ -260,7 +260,7 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 
 ---
 @snap[north-west]
-####Output
+#### Output
 @snapend
 
 ```text
