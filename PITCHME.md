@@ -207,7 +207,7 @@ static void shuffle(int[] A) {
 ---
 
 @snap[west]
-Un altro esempio di utilizzo dell'algoritmo di **selection sort** per ordinare un mazzo di carte (utilizzando la classe ArrayList al posto dell'array). In questo caso la carte sono contenute in una lista di tipo `ArrayList<Card>`. Un oggetto di tipo `Card` contiene due metodi d'istanza `getSuit()` e `getValue()`. 
+Un altro esempio di utilizzo dell'algoritmo di **selection sort** per ordinare un mazzo di carte (utilizzando la classe ArrayList al posto dell'array). In questo caso la carte sono contenute in una lista di tipo `ArrayList<Card>`. Un oggetto di tipo `Card` contiene due metodi d'instanza `getSuit()` e `getValue()`. 
 @snapend
 
 ---
@@ -241,6 +241,8 @@ public void sortBySuit() {
 }
 ```
 Metodo della classe [Hand](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Hand.java). Codice [Card](https://github.com/checksound/EsempioGiocoCarte/blob/master/src/Card.java).
+
+---?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java&title=Mazzo carte
 
 ---
 
