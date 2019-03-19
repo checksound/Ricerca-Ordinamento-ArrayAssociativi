@@ -242,7 +242,7 @@ public void sortBySuit() {
 ```
 ---?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java
 @snap[north-west]
-### Mano di carte - classe Hand
+### Mano di carte - classe `Hand`
 @snapend
 
 @snap[south span-100]
@@ -255,7 +255,11 @@ public void sortBySuit() {
 
 In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte sono prese dalla vecchia lista in ordine crescente, e messe nella nuova lista. Alla fine alla variabile `hand`  (che conteneva la vecchia lista di carte non ordinate) viene assegnata la nuova lista con le carte ordinate.
 
----?gist=https://gist.github.com/MassimoCappellano/2577352d45284a989df09b5c45deb223&lang=Java&title=Carta da gioco
+---?gist=https://gist.github.com/MassimoCappellano/2577352d45284a989df09b5c45deb223&lang=Java
+
+@snap[north-west]
+### Carta da gioco - classe `Card`
+@snapend
 
 ---?gist=MassimoCappellano/ccc626c37bb7a3651c875766022bcd41&lang=Java&title=Esempio utilizzo classe Hand
 
