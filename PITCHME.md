@@ -240,7 +240,10 @@ public void sortBySuit() {
 	hand = newHand;
 }
 ```
----?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java&title=Mazzo carte
+---?gist=MassimoCappellano/a90c74299036b6b43029b2cd73328113&lang=Java
+@snap[north-west]
+### Mano di carte - classe Hand
+@snapend
 
 @snap[south span-100]
 @[8-20, zoom-25](Classe Hand, carte in mano al giocatore)
