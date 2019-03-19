@@ -246,7 +246,7 @@ public void sortBySuit() {
 @snapend
 
 @snap[south span-100]
-@[8-20, zoom-25](Classe Hand, carte in mano al giocatore)
+@[8-20, zoom-25](classe `Hand`, rappresenta le carte in mano al giocatore)
 @[83-106, zoom-20](metodo per ordinare per seme: asso, due, tre.. di cuori, poi asso, due, tre.. di quadri,...)
 @[107-130, zoom-20](metodo per ordinare per valori: tutti gli assi, poi tutti i due, tutti i tre....)
 @snapend
@@ -267,7 +267,7 @@ In questo algoritmo di sorting, viene creata una nuova lista di carte: le carte 
 ### Esempio utilizzo classe `Hand`
 @snapend
 
-@snap[south-west zoom-25]
+@snap[south-west]
 Esecuzione sorting
 @snapend
 ---
